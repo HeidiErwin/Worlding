@@ -63,6 +63,8 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Scripts\ShowText.cs" />
+    <None Include="Assets\Scripts\1001fonts-self-destruct-button-bb-eula.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/heidi/Documents/Classes/DigitalWorlding/Worlding/World/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
