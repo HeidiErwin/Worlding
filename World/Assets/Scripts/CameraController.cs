@@ -44,7 +44,7 @@ public class CameraController : MonoBehaviour {
         if (Input.GetKey(KeyCode.LeftShift)) { // can rotate only camera if hold down left shift
             target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
         } else {
-            target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
+            //target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
             player.rotation = Quaternion.Euler(0, mouseX, 0);
         }
     }
