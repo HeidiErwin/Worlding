@@ -13,15 +13,6 @@ public class CameraController : MonoBehaviour {
     public Transform obstruction;
     float zoomSpeed = 2f;
 
-    //void Start() {
-    //    offset = transform.position - player.transform.position;
-    //}
-
-   // After 'Update()', just before each frame rendered
-    //void LateUpdate() {
-    //    transform.position = player.transform.position + offset;
-    //}
-
     void Start() {
         obstruction = target;
         Cursor.visible = false;

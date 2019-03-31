@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
     }
 
-    void Update() {
+    void FixedUpdate() {
         if (Input.GetKeyDown(KeyCode.R)) { // roll mode
             if (mode == 0) {
                 //GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
