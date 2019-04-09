@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/B&J Studio/Scenes/Example.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Title.unity
+    guid: ffb6f9571d399a843a5b644ee6ed5ff4
+  - enabled: 1
+    path: Assets/Scenes/Backyard.unity
     guid: 9a66e707b2d4dec498d33d23cef9379f
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 4ba7561d131c38b4bb618442c4fda9c4
   m_configObjects: {}
