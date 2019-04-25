@@ -41,32 +41,7 @@ ModelImporter:
     4300004: Circle.004
     4300006: Circle.002
     4300008: Corona_Seconique Tall Bookcase.001
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Iron Bolts
-    second: {fileID: 2100000, guid: e67639e7b0b59524ebdab821e88064e5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: fb2f601af2519104cb5f833085c9c4f4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.005
-    second: {fileID: 2100000, guid: 521ac3d5d677d914ebb5efe8bf46297c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Shiny bolts
-    second: {fileID: 2100000, guid: 5e2980e1c8a0e2144a52dcc0db5497bb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wood
-    second: {fileID: 2100000, guid: 47f6a52c8f5a6504fb93707f251111b0, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
