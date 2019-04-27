@@ -3,19 +3,15 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour {
 
-    //public GameObject player;
     [SerializeField] private Vector3 offset; // 0, .4, -1
-
-    //float rotationSpeed = 1;
     public Transform target;// player
-    //float mouseX, mouseY;
-    [SerializeField] private float currentZoom; // 1
+    [SerializeField] private float currentZoom; // 1.2
     [SerializeField] private float zoomSpeed; // 4
-    [SerializeField] private float minZoom; // 5
-    [SerializeField] private float maxZoom; // 15
+    [SerializeField] private float minZoom; // 1.2
+    [SerializeField] private float maxZoom; // 5
 
-    [SerializeField] private float pitch; //.35
-    [SerializeField] private float yawSpeed = 100f; //.35
+    [SerializeField] private float pitch; //.4
+    [SerializeField] private float yawSpeed = 100f; //100
 
     private float currentYaw = 0f; //for camera rotation
 
