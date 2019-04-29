@@ -22,7 +22,12 @@ ModelImporter:
     4300000: Grid
     4300002: Grid.001
     10800000: Light
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground
+    second: {fileID: 2100000, guid: 36e1b1e19aabea3489be4977b41efa6c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
