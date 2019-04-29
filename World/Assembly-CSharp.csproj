@@ -60,7 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Fade.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\Grandma.cs" />
     <Compile Include="Assets\Scripts\JasmineFloat.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
