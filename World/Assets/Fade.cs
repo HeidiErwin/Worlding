@@ -9,10 +9,6 @@ public class Fade : MonoBehaviour
         StartCoroutine(FadeWhite(grandmaToHide, grandmaToShow));
     }
 
-    //public void FadeToTransparent() {
-    //    StartCoroutine(FadeClear());
-    //}
-
     IEnumerator FadeWhite(GameObject grandmaToHide, GameObject grandmaToShow) {
         CanvasGroup canvasGroup = GetComponent<CanvasGroup>();
         while (canvasGroup.alpha < 1) {
@@ -31,13 +27,4 @@ public class Fade : MonoBehaviour
         yield return null;
     }
 
-    IEnumerator FadeClear() {
-        CanvasGroup canvasGroup = GetComponent<CanvasGroup>();
-        while (canvasGroup.alpha > 0) {
-            canvasGroup.alpha -= Time.deltaTime / 2;
-            yield return null;
-        }
-        canvasGroup.interactable = true;
-        yield return null;
-    }
 }

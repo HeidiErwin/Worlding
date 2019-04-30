@@ -12,18 +12,9 @@ public class GameController : MonoBehaviour
         fadePanel = GameObject.Find("FadePanel");
     }
 
-    public void Update() {
-        if (Input.GetKeyDown(KeyCode.F)) {
-            StartCoroutine(MoveGrandma());
-        }
-    }
-
     public IEnumerator MoveGrandma() {
         fadePanel.GetComponent<Fade>().FadeToWhite(grandmas[currentGrandma], grandmas[currentGrandma +1]);
         yield return new WaitForSeconds(1);
-        //grandmas[currentGrandma].SetActive(false);
         currentGrandma++;
-        //grandmas[currentGrandma].SetActive(true);
-        //fadePanel.GetComponent<Fade>().FadeToTransparent();
     }
 }
