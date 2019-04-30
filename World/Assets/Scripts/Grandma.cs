@@ -10,6 +10,7 @@ public class Grandma : MonoBehaviour
     [SerializeField] private GameController controller;
     private bool dialogueShown = false;
     private bool soundPlayed = false;
+    private bool readyToVanish = false;
 
     private AudioSource source;
     public AudioClip foundSound;
@@ -35,9 +36,12 @@ public class Grandma : MonoBehaviour
     }
 
     private void OnTriggerExit(Collider other) {
-        textbox.GetComponent<Text>().text = "";
-        textbox.SetActive(false);
-        textboxImage.SetActive(false);
-        controller.StartCoroutine(controller.MoveGrandma());
+        if (!readyToVanish) {
+            textbox.GetComponent<Text>().text = "";
+            textbox.SetActive(false);
+            textboxImage.SetActive(false);
+            controller.StartCoroutine(controller.MoveGrandma());
+            readyToVanish = true;
+        }
     }
 }
