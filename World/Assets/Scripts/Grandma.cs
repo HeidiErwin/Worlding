@@ -9,6 +9,7 @@ public class Grandma : MonoBehaviour
     [SerializeField] private GameObject textboxImage;
     [SerializeField] private GameController controller;
     private bool dialogueShown = false;
+    private bool soundPlayed = false;
 
     private AudioSource source;
     public AudioClip foundSound;
@@ -18,7 +19,10 @@ public class Grandma : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        source.PlayOneShot(foundSound, 0.5f);
+        if (!soundPlayed) {
+            source.PlayOneShot(foundSound, 0.5f);
+            soundPlayed = true;
+        }
     }
 
     private void OnTriggerStay(Collider other) {
@@ -26,7 +30,7 @@ public class Grandma : MonoBehaviour
         if(!dialogueShown) {
             textbox.SetActive(true);
             textboxImage.SetActive(true);
-            dialogueShown = false;
+            dialogueShown = true;
         }
     }
 
