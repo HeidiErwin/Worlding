@@ -70,6 +70,8 @@
     <Compile Include="Assets\Scripts\PlayerMotor.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\ShowText.cs" />
+    <Compile Include="Assets\WorldSkies\Demo\Scripts\LookCamera.cs" />
+    <Compile Include="Assets\WorldSkies\Demo\Scripts\SkyboxChanger.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/heidi/Documents/Classes/DigitalWorlding/Worlding/World/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
